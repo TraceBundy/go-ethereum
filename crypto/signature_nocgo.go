@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/btcsuite/btcd/btcec/v2"
-	btc_ecdsa "github.com/btcsuite/btcd/btcec/v2/ecdsa"
+	"github.com/btcsuite/btcd/btcec"
+	btc_ecdsa "github.com/btcsuite/btcd/btcec"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.
